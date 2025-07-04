@@ -34,7 +34,12 @@
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
-			"esbuild"
+			"esbuild",
+			"sharp",
+			"workerd"
 		]
+	},
+	"dependencies": {
+		"bits-ui": "^2.8.10"
 	}
 }
