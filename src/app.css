@@ -1,1 +1,5 @@
 @import 'tailwindcss';
+@import '@fontsource-variable/faustina';
+* { font-family: "Faustina Variable"; }
+
+body {background-color: #dad7ef;}
