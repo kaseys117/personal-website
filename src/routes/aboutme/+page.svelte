@@ -4,7 +4,7 @@
 	let { data }: { data: PageData } = $props();
 </script>
 
-<h1 class="text-[2rem] font-bold mb-2" style="color: #454863;">
+<h1>
 	<center> About Me </center>
 </h1>
 
