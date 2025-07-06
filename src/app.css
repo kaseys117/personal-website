@@ -2,6 +2,11 @@
 @import '@fontsource-variable/faustina';
 * { font-family: "Faustina Variable"; }
 
+html {
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
 body {background-color: #dad7ef;}
 
 h1{
