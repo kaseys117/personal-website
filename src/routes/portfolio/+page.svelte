@@ -75,8 +75,7 @@
 
 		<img src="P6.png" style="width: 250px;border-radius: 1rem;" />
 
-		A visual of the office traffic we receive throughout the year. Data ranges from basic counts to
-		average student GPA.
+		A visual of the office traffic received throughout the year. Data ranges from total visits to the average student GPA.
 
 		<a class="button"> View Project </a>
 	</div>
@@ -86,7 +85,7 @@
 
 		<img src="P7.png" style="width: 250px;border-radius: 1rem;" />
 
-		An automation of office procedures that helped reduce the manual labor while also ensuring and
+		An automation of office procedures that reduced manual labor while also ensuring and
 		maintaining data accuracy.
 
 		<a class="button"> View Project </a>

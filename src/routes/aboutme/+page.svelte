@@ -24,7 +24,8 @@
 				&#10022; Moved to Huntsville, TX in 2021 for college<br />
 				&#10022; Studied cybersecurity at Sam Houston State, graduating with cum laude <br />
 				&#10022; Married to my loving husband, Carlos<br />
-				&#10022; Adopted a stray cat & named her Matcha<br /><br />
+				&#10022; Adopted a stray cat & named her Matcha<br />
+				&#10022; Adopted another shelter kitten and named him Cornchip<br /><br />
 				<strong>My Days Consist Of </strong><br />
 				&#10022; Work<br />
 				&#10022; Watching movies<br />
@@ -34,7 +35,8 @@
 				&#10022; Teas<br />
 				&#10022; Healthy lifestyles<br /> <br />
 				<strong>I Aspire To Be</strong><br />
-				&#10022; A cybersec expert (like Mr.Robot, but on the white hat side)
+				&#10022; A cybersecurity expert (like Mr.Robot, but on the white hat side)<br>
+				&#10022; A skilled piano player
 				<!-- <br><br>If you'd like to know any further, I think it's time for some OSINT. -->
 			</span>
 		</div>
