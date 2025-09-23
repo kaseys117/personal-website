@@ -1,7 +1,23 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-
+	import Modal from '$lib/modal.svelte';
+	let modal = $state(null);
+	let active = $state(null);
+	const projects = [
+		{
+			title:"Personal Website",
+			tools: ["Cloudflare Workers","Svelte","git","CL/CD","VS Code","HTML","CSS","TypeScript"],
+			about: "This project was created as a way to test my abilities and showcase my work and skills. I first built this website using raw HTML and CSS. After my first iteration, I migrated everything over to Svelte to increase the development speed. I chose to deploy to Cloudflare Workers for its built-in security, automatic scaling, cost effectiveness, and easy CI/CD GitHub integration.",
+			lessons_learned: "The biggest piece is that I learned how to use HTML and CSS on a much deeper level. It served me good doing research to find the best way to build this site without making it a big headache, considering I’m not a pro at coding. Migrating over to Svelte was the biggest time saver because it helped decrease duplicate code by writing reusable components.",
+			img_src:"P3.png", 
+			img_title: "Commit History"
+		}
+	]
 	let { data }: { data: PageData } = $props();
+	function open (project){
+		active=project
+		modal!.showModal()
+	}
 </script>
 
 <h1>Portfolio</h1>
@@ -9,7 +25,7 @@
 <p class="text-center" style="color: #454863;">
 	A selection of projects showcasing my work in cybersecurity and other related work.
 </p>
-
+<Modal bind:modal {...active} onclose={() => (active = null)} />
 <div class="main">
 	<div class="project">
 		<h2 class="projecttitle">Blank - TBD</h2>
@@ -19,8 +35,8 @@
 		Blank - TBD
 
 		<!-- <img src="Wireshark.png" style="width: 25px;"><br> -->
-
-		<a class="button"> View Project </a>
+		<button class="button" onclick={() => open(projects[0])}> View Project </button>
+		<!-- <a class="button"> View Project </a> -->
 	</div>
 
 	<div class="project">
@@ -129,5 +145,6 @@
 		border-radius: 0.125rem;
 		background-color: #462ea3;
 		color: white;
+		cursor: pointer;
 	}
 </style>
