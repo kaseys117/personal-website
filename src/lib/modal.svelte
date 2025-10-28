@@ -7,11 +7,22 @@
 		lessons_learned,
 		img_src,
 		img_title,
-		onclose
-	} = $props();
+	} : 
+	{
+		modal: any;
+		title: string;
+		description: string;
+		tools: string[];
+		about: string;
+		lessons_learned: string;
+		thumbnail: string;
+		slug: string;
+		img_src: string;
+		img_title: string;
+	}= $props();
 </script>
 
-<dialog bind:this={modal} closedby="any" {onclose}>
+<dialog bind:this={modal} closedby="any">
 	<button onclick={()=>modal.close()}><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
     </button>
 
