@@ -7,7 +7,7 @@
         "lessons_learned": "The biggest piece is that I learned how to use HTML and CSS on a much deeper level. It served me good doing research to find the best way to build this site without making it a big headache, considering I'm not a pro at coding. Migrating over to Svelte was a big time saver because it helped decrease duplicate code by writing reusable components.",
         "thumbnail":"P3.png",
         "slug":"personal-website",
-        "img_src": "P3.png",
+        "img_src": "Website.png",
         "img_title": "Commit History"
     },
     {
@@ -23,8 +23,8 @@
         "lessons_learned": "The moral of the story was: Don't buy cheap security cameras. Security vulnerabilities in IOT devices can sometimes be undermined, and with this project we learned just how easy it can be to intercept credentials and gain unauthorized access. This was one of my first hands on experiences, and though it was small and in a controlled environment, it was very rewarding. Wireshark is one of my favorite tools",
         "thumbnail": "P3-1.png",
         "slug": "camera-monitor",
-        "img_src": "P3-1.png",
-        "img_title": "Wireshark running the IP of the camera"
+        "img_src": "IOT.png",
+        "img_title": "Wireshark catching the plain text username and password"
     },
     {
         "title": "Wellmo - A Wellness App",
@@ -44,8 +44,8 @@
         "lessons_learned": "",
         "thumbnail": "P4.png",
         "slug": "wellmo",
-        "img_src": "P4.png",
-        "img_title": "Some of the app pages"
+        "img_src": "WellMo.png",
+        "img_title": "A screenshot of Figma, where the pages were designed"
     },
     {
         "title": "RainCheck - A Weather App",
@@ -59,8 +59,8 @@
         "lessons_learned": "Since this was a visual project, I learned how to use photoshop to get the Bitmoji avatar outlines and transfer them over to the project board, which was just in Google Slides",
         "thumbnail": "P5-1.png",
         "slug": "raincheck",
-        "img_src": "P5-1.png",
-        "img_title": "The main screen"
+        "img_src": "RainCheck.png",
+        "img_title": "A sample of the travel calculator and main screen"
     },
     {
         "title": "Office Statistics Dashboard",
@@ -73,7 +73,7 @@
         "lessons_learned": "Although I inherited part of the setup, I figured out how to pull, clean, and organize the data myself which helped me understand the full process behind our reporting. There were a lot of other visuals I played around with such as what gender or College visits our office the most and for what types of services. ",
         "thumbnail": "P6.png",
         "slug": "office-dashboard",
-        "img_src": "P6.png",
-        "img_title": "Dashboard view of in-person traffic, with replaced sample values"
+        "img_src": "Dashboard.png",
+        "img_title": "General dashboard view of office traffic data - redacted"
     }
 ]

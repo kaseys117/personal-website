@@ -37,7 +37,7 @@
 		<div class="project">
 			<h2 class="projecttitle">{project.title}</h2>
 
-			<img src={project.img_src} style="width: 250px;border-radius: 1rem;" alt="project thumbnail"/>
+			<img src={project.thumbnail} style="width: 250px;border-radius: 1rem;" alt="project thumbnail"/>
 
 			{project.description}
 
