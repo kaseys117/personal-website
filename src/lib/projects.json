@@ -5,13 +5,13 @@
         "tools": [ "Cloudflare Workers","Svelte","git", "CL/CD", "VS Code", "HTML","CSS","TypeScript"],
         "about": "This project was created as a way to test my abilities and showcase my work and skills. I first built this website using raw HTML and CSS. After my first iteration, I migrated everything over to Svelte to increase the development speed. I chose to deploy to Cloudflare Workers for its built-in security, automatic scaling, cost effectiveness, and easy CI/CD GitHub integration.",
         "lessons_learned": "The biggest piece is that I learned how to use HTML and CSS on a much deeper level. It served me good doing research to find the best way to build this site without making it a big headache, considering I'm not a pro at coding. Migrating over to Svelte was a big time saver because it helped decrease duplicate code by writing reusable components.",
-        "thumbnail":"P3.png",
+        "thumbnail":"P2.png",
         "slug":"personal-website",
         "img_src": "Website.png",
         "img_title": "Commit History"
     },
     {
-        "title": "IOT - Camera Monitor Security",
+        "title": "Camera Monitor Security",
         "description": "A hands-on project aimed at evaluating the network security of low-cost camera monitors purchased from Amazon.",
         "tools": [
             "Kali Linux",
@@ -41,7 +41,7 @@
             "GitHub"
         ],
         "about": "This was a Software Engineering class project. We learned about the Software Development Life Cycles and how you can pick the one that best fits the category of your project. My team consisted of five, with myself being the team leader. We selected the Agile Model because it allowed us to split the project into three iterations which was useful for our timeframe, it allowed us to make changes as we kept moving forward, and increased accountability. Our app, WellMo, was created with the intention to help a user  keep track of their health related symptoms and other factors so they can report them to their doctor",
-        "lessons_learned": "",
+        "lessons_learned": "Every software development cycle is unique to each project and should be selected carefully based on your goals. This projects involved a lot of Java coding since we went for a web based application. Being the team lead also helped me prepare for what it's like in the work field when it comes to working on team projects where each person is responsible for different parts of the project but they all intertwine.",
         "thumbnail": "P4.png",
         "slug": "wellmo",
         "img_src": "WellMo.png",

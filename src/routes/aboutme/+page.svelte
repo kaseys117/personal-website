@@ -9,41 +9,10 @@
 </h1>
 
 <p class="text-center" style="color: #454863; margin-bottom: 2rem;">
-	A couple of facts about me both personally and professionally.
+	A couple of facts about me both professionally and personally.
 </p>
 
 <div class="aboutmebox">
-		<div class="personal card">
-			<h2>
-				Personal Life
-			</h2>
-
-			<span>
-				<strong>Basics</strong><br />
-				&#10022; Born and raised in Houston, TX <br />
-				&#10022; Moved to Huntsville, TX in 2021 for college<br />
-				&#10022; Studied cybersecurity at Sam Houston State, graduating with cum laude <br />
-				&#10022; Married to my loving husband, Carlos<br />
-				&#10022; Adopted a stray cat & named her Matcha<br />
-				&#10022; Adopted another shelter kitten and named him Cornchip<br /><br />
-				<strong>My Days Consist Of </strong><br />
-				&#10022; Work<br />
-				&#10022; Watching movies<br />
-				&#10022; Going on walks<br />
-				&#10022; Studying & working on cyber projects<br /><br />
-				<strong>Lately I've Been Into</strong><br />
-				&#10022; Teas<br />
-				&#10022; Healthy lifestyles<br /> <br />
-				<strong>I Aspire To Be</strong><br />
-				&#10022; A cybersecurity expert (like Mr.Robot, but on the white hat side)<br>
-				&#10022; A skilled piano player
-				<!-- <br><br>If you'd like to know any further, I think it's time for some OSINT. -->
-			</span>
-		</div>
-
-		<div class="photoboard">
-			<img src="PhotoBoard.png" style="width: 400px;" alt="Photoboard with photos" />
-		</div>
 
 		<div class="professional card">
 			<h2>
@@ -103,6 +72,38 @@
 			<img src="Logos.png" style="width: 400px;" />
 		</div>
 
+		<div class="personal card">
+			<h2>
+				Personal Life
+			</h2>
+
+			<span>
+				<strong>Basics</strong><br />
+				&#10022; Born and raised in Houston, TX <br />
+				&#10022; Moved to Huntsville, TX in 2021 for college<br />
+				&#10022; Studied cybersecurity at Sam Houston State, graduating with cum laude <br />
+				&#10022; Married to my loving husband, Carlos<br />
+				&#10022; Adopted a stray cat & named her Matcha<br />
+				&#10022; Adopted another shelter kitten and named him Cornchip<br /><br />
+				<strong>My Days Consist Of </strong><br />
+				&#10022; Work<br />
+				&#10022; Watching movies<br />
+				&#10022; Going on walks<br />
+				&#10022; Studying & working on cyber projects<br /><br />
+				<strong>Lately I've Been Into</strong><br />
+				&#10022; Teas<br />
+				&#10022; Healthy lifestyles<br /> <br />
+				<strong>I Aspire To Be</strong><br />
+				&#10022; A cybersecurity expert (like Mr.Robot, but on the white hat side)<br>
+				&#10022; A skilled piano player
+				<!-- <br><br>If you'd like to know any further, I think it's time for some OSINT. -->
+			</span>
+		</div>
+
+		<div class="photoboard">
+			<img src="PhotoBoard.png" style="width: 400px;" alt="Photoboard with photos" />
+		</div>
+
 	<!-- <div class="futureprojects4">
     
             <div class="futureprojects">
@@ -123,9 +124,9 @@
     gap: 2.5rem;
     margin: 0 2.5rem;
     grid-template-areas: 
-    "personal photoboard"
     "professional tools"
-    "education logos";
+    "education logos"
+	"personal photoboard";
     align-items: center;
     grid-template-columns: 1fr auto;
 }
