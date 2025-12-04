@@ -87,7 +87,7 @@
 		    border: 1px solid #ffff;
             padding: 0 .5rem;
             font-size: 13px;
-            font-weight: 500;
+            font-weight: 750;
         }
     }
 

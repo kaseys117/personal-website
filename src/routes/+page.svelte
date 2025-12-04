@@ -10,8 +10,9 @@
 	
 	
 
-		<div class="circle">
-			<img src="Me.png" width="250px" />
+		<div class="me">
+			<img src="Me.png" id="front" width="250px" />
+			<img src="Me2.png" id="back" width="250px" />
 		</div>
 
 <div class="intro">
@@ -80,5 +81,64 @@
 		font-weight: normal;
 		margin-bottom: .5rem;
 	}
+
+
+	.me {
+		position:relative;
+		width: 300px;
+		height: 200px;
+		perspective: 1000px;
+		transform-style: preserve-3d;
+	}
+
+	#front, #back{
+		position: absolute;
+		top: -3rem;
+		left: -3rem;
+		transition: transform 1s;
+		backface-visibility: hidden;
+		outline: 4px solid #d0b7f7;
+		outline-offset: 6px;
+		margin: 2rem;
+		border-radius: 50%;
+	}
+
+	#back{
+		transform: rotateY(180deg);
+	}
+
+	.me:hover #back{
+		transform: rotateY(0deg);
+	}
+
+	.me:hover #front{
+		transform: rotateY(-180deg);
+	}
+
+	
+
+	/* img {
+		outline: 4px solid #d0b7f7;
+		outline-offset: 6px;
+		margin: 2rem;
+		border-radius: 50%;
+		transition: 1s ease-in-out;
+	}
+
+	img:hover {
+		animation: spin 1s ease-in-out;
+	}
+
+	@keyframes spin{
+		0%{
+			rotate:Y 0deg;
+		}
+		100%{
+			rotate:Y 360deg;
+			background-color: red;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+	} */
 	
 </style>

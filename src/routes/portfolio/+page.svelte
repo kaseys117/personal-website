@@ -74,7 +74,7 @@
 	.projecttitle {
 		font-size: 20px;
 		color: #454863;
-		font-weight: normal;
+		font-weight: bold;
 	}
 
 	.button {
